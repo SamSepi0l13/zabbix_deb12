@@ -13,4 +13,4 @@ systemctl start zabbix-agent2 || verificar_erro "systemctl start"
 #Atualiza e Verifica
 echo "Habilitando o serviço para iniciar automaticamente na inicialização do sistema..."
 systemctl enable zabbix-agent2 || verificar_erro "systemctl enable"
-cd ..
+cd /root
